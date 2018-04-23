@@ -1,0 +1,25 @@
+#cuadro{
+
+    background-color: white;
+    display:inline-block;
+    text-align: center;
+    
+
+}
+
+ul li{
+
+    min-width:75px;
+    height:100%;
+    padding-left:10px;
+    padding-right:10px;
+    float:left;
+    text-align:center;
+}
+
+ul{
+    width:1024px;
+    height:100%;
+    list-style:none;
+    margin:auto;
+}
