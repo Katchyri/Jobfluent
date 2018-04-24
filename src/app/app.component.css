@@ -53,8 +53,9 @@
    h2{
     color:#fff !important;
     font-weight:bold;
-    font-size:24px;
+    font-size:28px;
     display: inline;
+    margin-left: 10px;
    }
    
    #cuerpo{

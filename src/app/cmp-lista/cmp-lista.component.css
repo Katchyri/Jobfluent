@@ -1,25 +1,38 @@
-#cuadro{
-
-    background-color: white;
-    display:inline-block;
+#nav {
+    width: 70%;
     text-align: center;
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
+    height: 120px;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
     
 
 }
+#nav ul li {
+    display: -webkit-inline-box;
+    padding: 0 10px;
 
-ul li{
-
-    min-width:75px;
-    height:100%;
-    padding-left:10px;
-    padding-right:10px;
-    float:left;
-    text-align:center;
 }
 
-ul{
-    width:1024px;
-    height:100%;
-    list-style:none;
-    margin:auto;
+div{
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
 }
+
+
+img{
+    width: 7%;
+    margin-top: 2%;
+    float: left;
+    margin-left: 5%;
+    
+}
+a{
+    width: 100%;
+}
+

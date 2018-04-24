@@ -6,11 +6,11 @@ import { stringify } from "@angular/compiler/src/util";
 export class ItemsService {
 emitirEvento;
 items : Array<object>=[
-  {imagen :"Imagen 1", titulo : " Titulo 1", descripcion : "Descripcion 1 del trabajo"},
-  {imagen :"Imagne 2", titulo : " Titulo 2", descripcion : "Descripcion 2 del trabajo"},
-  {imagen :"Imagne 3", titulo : " Titulo 3", descripcion : "Descripcion 3 del trabajo"},
-  {imagen :"Imagne 4", titulo : " Titulo 4", descripcion : "Descripcion 4 del trabajo"},
-  {imagen :"Imagne 5", titulo : " Titulo 5", descripcion : "Descripcion 5 del trabajo"}
+  {imagen : "./assets/4.png", titulo : " Titulo 1", salario: "45.000 € - 60.000 € (0.0 - 0.3% stock)",  descripcion : "Descripcion 1 del trabajo"},
+  {imagen :"./assets/1.png", titulo : " Titulo 2", salario: "45.000 € - 60.000 € (0.0 - 0.3% stock)", descripcion : "Descripcion 2 del trabajo"},
+  {imagen :"./assets/2.png", salario: "45.000 € - 60.000 € (0.0 - 0.3% stock)", titulo : " Titulo 3", descripcion : "Descripcion 3 del trabajo"},
+  {imagen :"./assets/3.png",  salario: "45.000 € - 60.000 € (0.0 - 0.3% stock)", titulo : " Titulo 4", descripcion : "Descripcion 4 del trabajo"},
+  {imagen :"./assets/5.png",  salario: "45.000 € - 60.000 € (0.0 - 0.3% stock)",titulo : " Titulo 5", descripcion : "Descripcion 5 del trabajo"}
 ];
   constructor() { 
 

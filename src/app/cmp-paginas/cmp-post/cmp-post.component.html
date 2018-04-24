@@ -1,5 +1,27 @@
-<div>
-  <p>
-    cmp-post works!
-  </p>
+<div id="contenedor">
+
+  <h1>Submit an Open Position</h1>
+  <p>Please use the form below to submit your job offer to www.JobFluent.com A couple of important things to keep in mind (please
+    don't skip):</p>
+
+  <p> - Your ad will not be published if you are a 3rd party recruiter / headhunter</p>
+  <p> - Cost: 199€ + VAT. Job post will be active for 30 days.</p>
+  <p id="rojo">*Obligatorio</p>
+  <form (ngSubmit)="enviarDatos(form)" #form="ngForm"  role="form">
+    <div>
+      <div class="form-group">
+        <label for="usuario">Usuario: </label>
+        <input type="text" id="usuario" name="usuario" [ngModel]="usuario.usuario">
+      </div>
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" [ngModel]="usuario.email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password">Contraseña: </label>
+      <input type="password" id="password" name="password" [ngModel]="usuario.password">
+    </div>
+    <button type="submit"  class="btn btn-default">Enviar</button>
+  </form>
 </div>

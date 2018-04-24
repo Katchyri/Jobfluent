@@ -1,9 +1,10 @@
-<div id="cuadro">
+<div >
   <ul *ngFor="let item of items">
-    <li>
-      <a><img src="items.imagen"/><label>{{item.titulo}}</label>
-      <p>{{item.descripcion}}</p></a>
-      
+    <li id="nav">
+      <a id="recuadroImagen"><img src={{item.imagen}}/></a>
+      <p><label>{{item.titulo}}</label></p>
+      <p> <label>{{item.salario}}</label></p> 
+      <p><label>{{item.descripcion}}</label></p>      
     </li> 
   </ul>
 </div>
